@@ -108,12 +108,12 @@ window.onload = function() {
                             </div>
                             </div>
                           </div>`
-                          if(lastID){
-                            $(module1).appendTo("[id=lastID]")
-                            console.log(lastID)
-                          }
+                          // if(lastID){
+                          //   $(module1).appendTo("[id=lastID]")
+                          //   console.log(lastID)
+                          // }
 
-                          // $("[id=lastID]").append
+                          $('.accordion_container').append(module1)
 
 
             break;
@@ -163,7 +163,7 @@ window.onload = function() {
 
                           </div>
                         </div>`
-                        $("[id=lastID]").append(module2)
+                        $('.accordion_container').append(module2)
           default:
         }
         var selectedPostion
